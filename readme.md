@@ -2,9 +2,7 @@
 
 Sila Rujuk [Laman Web](https://suffi90.github.io)
 
-##
-
-Isi Kandungan
+## Isi Kandungan
 
 * Trailing Slash
 * Bootstrap-Glyphicons
