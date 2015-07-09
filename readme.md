@@ -9,5 +9,5 @@ Sila Rujuk [Laman Web](https://suffi90.github.io)
 * Bootstrap-Glyphicons
 * Flash Notice
 * Turn code into pluggable HTML	
-
+* Group by first letter
 
