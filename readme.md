@@ -8,3 +8,5 @@ Sila Rujuk [Laman Web](https://suffi90.github.io)
 * Bootstrap-Glyphicons
 * Flash Notice
 * Turn code into pluggable HTML	
+
+> Knowledge Sharing is awesome.
