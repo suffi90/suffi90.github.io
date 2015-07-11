@@ -10,4 +10,5 @@ Sila Rujuk [Laman Web](https://suffi90.github.io)
 * Flash Notice
 * Turn code into pluggable HTML	
 * Group by first letter
+* Fix SSL Error Rails Installer
 
