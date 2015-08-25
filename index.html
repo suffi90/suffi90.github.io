@@ -190,6 +190,75 @@
                         </tr>
 
 
+                        <td>9</td>
+                            <td>Friendly ID gem</br>
+                                </br>
+                            </td>
+                            <td>
+                                </br>Masukkan di gemfile <code>gem 'friendly_id', '5.0.4'
+</code> 
+
+
+Run di terminal <code>rails generate friendly_id </code> </br></br>
+                               
+
+ <pre><code>
+# edit app/models/user.rb
+
+class User < ActiveRecord::Base
+  extend FriendlyId
+  friendly_id :name, use: :slugged
+end
+
+
+-------------------------------------
+
+# Change User.find to User.friendly.find in your controller
+User.friendly.find(params[:id])
+
+-------------------------------------
+
+  def update
+    @user.slug = nil
+    respond_to do |format|
+      if @user.update(user_params)
+        format.html { redirect_to @user, notice: 'User was successfully updated.' }
+        format.json { render :show, status: :ok, location: @user }
+      else
+        format.html { render :edit }
+        format.json { render json: @user.errors, status: :unprocessable_entity }
+      end
+    end
+  end
+
+
+ </code></pre>
+
+
+
+
+
+
+
+
+                            <td><a href=https://gist.github.com/fnichol/867550>Sumber</a>
+                            </td>
+                        </tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
