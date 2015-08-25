@@ -13,6 +13,6 @@ Sila Rujuk [Laman Web](https://suffi90.github.io)
 * Fix SSL Error Rails Installer
 * Tampilkan Parent-Children 
 * Toast-Rails (Growl) 
-
+* Friendly ID gem
 
 
