@@ -11,4 +11,8 @@ Sila Rujuk [Laman Web](https://suffi90.github.io)
 * Turn code into pluggable HTML	
 * Group by first letter
 * Fix SSL Error Rails Installer
+* Tampilkan Parent-Children 
+* Toast-Rails (Growl) 
+
+
 
